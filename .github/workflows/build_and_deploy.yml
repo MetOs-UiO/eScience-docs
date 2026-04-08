@@ -1,7 +1,7 @@
 name: "Pull Request Docs Check"
 on:
   push:
-    branches: master
+    branches: e2026
   workflow_dispatch:
     
 
