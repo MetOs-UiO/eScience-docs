@@ -20,12 +20,28 @@ If you do not have a Feide account follow these instructions:
 
   - Now you have FEIDE **guest** account.
 
-Joining eScience2024 Feide group:
+Joining eScience2025 Feide group:
 ---------------------------------
 
-Once you created a FEIDE account (or if you already have one):
 
-  - You might have already received the invitation to a FEIDE group eScience2024 by email. If not, send email to Matvey Debolskiy <matveyd@uio.no>.
+Once you created a FEIDE account (or if you already have one):
+  - Go to `Innsyn Feide <https://innsyn.feide.no/login>`_.
+  - Login in with FEIDE OpenID credentials
+  - Go to `Personal information`
+  - Uncollapse
+  - Find your `Person's principal name at home organization` or `Mail`
+
+    .. image:: ./img/feide_pi.png
+       :height: 200
+
+  - If you use OpenID, your personal page will look like, just send what is in the `Mail` and `User ID`:
+
+    .. image:: ./img/openid.png
+       :height: 200
+
+  - Send email with this info to Matvey Debolskiy <matveyd@uio.no>.
+
+  - You will shortly receive an invite to a feide group `eScience2025` (if you can't find it, look in spam)
 
   - Click on the link in the email. You will be suggested to login in into dataporten.
  
@@ -33,17 +49,22 @@ Once you created a FEIDE account (or if you already have one):
 
   .. note::
 
-     For those with FEIDE guest accounts:
+     For those with FEIDE guest accounts to login:
       - Click ``Can't find your user account?``
       - Choose ``Feide guest users``, you would be promted to the OpenIdP login page.
 
-  - Accept policies and become member of **eScience2024** Feide group
+      .. image:: ./img/user_cant.png
+          :width: 50 %
+      .. image:: ./img/user_guest.png
+          :width: 50 %
+
+  - Accept policies and become member of **eScience2025** Feide group
 
 
 Accessing Jupyterhub:
 ---------------------
 
-Once you've become a memeber of **escience2024** Feide group you can use Jupyterhub for eScience2024 cource at `<https://escience2024.craas1.sigma2.no>`_.
+Once you've become a memeber of **escience2025** Feide group you can use Jupyterhub for eScience2025 cource at `<https://escience2025.craas2.sigma2.no>`_.
 
 
 
@@ -60,6 +81,6 @@ Once you've become a memeber of **escience2024** Feide group you can use Jupyter
 
 .. warning:: **Test server access**
 
-  Though `test sever <https://escience2024-test.craas1.sigma2.no>`_ is still reachable but will be shutdown soon.
-  So if you have anything there, move it to escience2024 server. If you  need help ask **@mvdeoblskiy**.
+  Though `test sever <https://test-escience2025.craas2.sigma2.no>`_ is still reachable but will be shutdown soon.
+  So if you have anything there, move it to escience2025 server. If you  need help ask **@mvdeoblskiy**.
 

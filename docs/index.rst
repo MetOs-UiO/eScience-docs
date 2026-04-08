@@ -1,14 +1,16 @@
-eScience 2024 course
+eScience 2025 course
 =========================
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 3
 
    feide
    course_workflow/index
    basics/index
    data/index
-   learning/index
    git_integration/index
+   common/index
+   learning/index
+   nbcon-pdf
    contrib
    license

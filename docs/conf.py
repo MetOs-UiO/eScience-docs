@@ -23,11 +23,11 @@ sys.path.insert(0, os.path.abspath("."))
 
 # -- Project information -----------------------------------------------------
 
-project = "eScience-2024"
-copyright = "2024, MetOs, UiO"
+project = "eScience-2025"
+copyright = "2025, MetOs, UiO"
 author = "MetOs-UiO"
 github_user = "MetOs-UiO"
-github_repo_name = "eScience2024"  # auto-detected from dirname if blank
+github_repo_name = "eScience2025"  # auto-detected from dirname if blank
 github_version = "master"
 conf_py_path = "/docs/"  # with leading and trailing slash
 
@@ -58,6 +58,8 @@ extensions = [
     "sphinx_toolbox.collapse",
     "sphinx_togglebutton",
     "sphinx_toolbox.installation",
+    "sphinxcontrib.pdfembed",
+    "sphinx.ext.mathjax"
 ]
 
 # Settings for myst_nb:
@@ -108,7 +110,7 @@ html_context = {
     "conf_py_path": conf_py_path,
 }
 html_theme_options = {
-    "repository_url": "https://github.com/MetOs-UiO/eScience2024",
+    "repository_url": "https://github.com/MetOs-UiO/eScience2025",
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
@@ -132,10 +134,14 @@ html_theme_options = {
 #    'seaborn': ('https://seaborn.pydata.org/', None),
 # }
 
+html_static_path = ['_static']
+
 html_logo = "img/es-logo.png"
 
 html_favicon = "img/es-logo.ico"
 
+mathjax_path="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
 suppress_warnings = ["myst.header","image.not_readable"]
 
 #def setup(app):
