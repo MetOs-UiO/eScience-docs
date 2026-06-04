@@ -1,4 +1,4 @@
-eScience 2025 course
+eScience 2026 course
 =========================
 
 .. toctree::

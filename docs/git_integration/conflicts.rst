@@ -5,7 +5,7 @@ Sometimes when you do ``git status`` after ``git fetch`` you can see that the br
 
 .. code-block:: bash
 
-    user@machine:~/escience2025-projects$ git status
+    user@machine:~/escience2026-projects$ git status
     On branch pr-test
     Your branch and 'origin/pr-test' have diverged,
     and have 1 and 1 different commits each, respectively.
@@ -36,11 +36,11 @@ You can can follow the hints, f.e. if you do ``git pull --no-rebase``:
 
 .. code-block:: bash
 
-    user@machine:~/escience2025-projects$ git pull --no-rebase
+    user@machine:~/escience2026-projects$ git pull --no-rebase
     Auto-merging group2/README.md
     CONFLICT (content): Merge conflict in group2/README.md
     Automatic merge failed; fix conflicts and then commit the result.
-    user@machine:~/escience2025-projects$ git status
+    user@machine:~/escience2026-projects$ git status
     On branch pr-test
     Your branch and 'origin/pr-test' have diverged,
     and have 1 and 1 different commits each, respectively.

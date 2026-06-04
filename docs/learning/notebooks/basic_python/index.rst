@@ -1,5 +1,5 @@
 Python tips & tricks
-==================
+====================
 
 .. toctree::
    :maxdepth: 0

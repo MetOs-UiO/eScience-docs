@@ -1,4 +1,4 @@
-Workflow for eScience2025 course
+Workflow for eScience2026 course
 ================================
 
 

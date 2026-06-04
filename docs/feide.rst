@@ -20,7 +20,7 @@ If you do not have a Feide account follow these instructions:
 
   - Now you have FEIDE **guest** account.
 
-Joining eScience2025 Feide group:
+Joining eScience2026 Feide group:
 ---------------------------------
 
 
@@ -41,7 +41,7 @@ Once you created a FEIDE account (or if you already have one):
 
   - Send email with this info to Matvey Debolskiy <matveyd@uio.no>.
 
-  - You will shortly receive an invite to a feide group `eScience2025` (if you can't find it, look in spam)
+  - You will shortly receive an invite to a feide group `eScience2026` (if you can't find it, look in spam)
 
   - Click on the link in the email. You will be suggested to login in into dataporten.
  
@@ -58,13 +58,13 @@ Once you created a FEIDE account (or if you already have one):
       .. image:: ./img/user_guest.png
           :width: 50 %
 
-  - Accept policies and become member of **eScience2025** Feide group
+  - Accept policies and become member of **eScience2026** Feide group
 
 
 Accessing Jupyterhub:
 ---------------------
 
-Once you've become a memeber of **escience2025** Feide group you can use Jupyterhub for eScience2025 cource at `<https://escience2025.craas2.sigma2.no>`_.
+Once you've become a memeber of **escience2026** Feide group you can use Jupyterhub for eScience2026 cource at `<https://escience2026.clinfra.sigma2.no>`_.
 
 
 
@@ -81,6 +81,6 @@ Once you've become a memeber of **escience2025** Feide group you can use Jupyter
 
 .. warning:: **Test server access**
 
-  Though `test sever <https://test-escience2025.craas2.sigma2.no>`_ is still reachable but will be shutdown soon.
-  So if you have anything there, move it to escience2025 server. If you  need help ask **@mvdeoblskiy**.
+  Though `test sever <https://def-test.clinfra.sigma2.no>`_ is still reachable but will be shutdown soon.
+  So if you have anything there, move it to escience2026 server. If you  need help ask **@mvdeoblskiy**.
 

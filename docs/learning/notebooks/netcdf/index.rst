@@ -1,5 +1,5 @@
 Reading files and regridding
-===========================
+============================
 
 .. toctree::
    :maxdepth: 0

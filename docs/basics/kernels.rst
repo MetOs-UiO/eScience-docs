@@ -15,44 +15,7 @@ Available kernels
 
 - **minimal**: bare python3.11 environment
 - **base**: contains basic packages (mostly not useful for data processing)
-- **pangeo-notebook**: environment, built from `Pangeo nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/pangeo-notebook>`_ extended with ``rioxarray``, ``pyrcel`` and ``geocat`` packages.
-- **ml-notebook**: environment, built from `Pangeo ml-nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/ml-notebook>`_ with added packages:
-
-  .. code-block::
-
-    'gpflow' 
-    'scikit-learn'
-    'tf-keras'
-    'tensorflow-probability'
-    'tensorflow'
-    'iris'
-    'tqdm'
-    'cis'
-    'ESEM'
-    'pyaro'
-    'pyaerocom'
-
-  .. attention::
-    
-    ``pyaero-notebook`` has been removed and latest ``pyaerocom`` added to the ``ml-notebook``.
-
-..
-  .. code-block::
-..
-    'pycel'
-    'ipykernel' 
-    'scikit-learn'
-    'netcdf4'
-    'xarray' 
-    'pyngl' 
-    'proplot' 
-    'cartopy' 
-    'rioxarray' 
-       
-    'pandas' 
-    'proplot' 
-    'seaborn' 
-    'cis'
+- **pangeo**: environment, built from `Pangeo nootbook v2026.01.30 <https://github.com/pangeo-data/pangeo-docker-images/tree/2026.01.30/pangeo-notebook>`_ extended with ``rioxarray``, ``pyrcel`` and ``geocat`` packages.
 
 
 Using the conda environments outside of the course
