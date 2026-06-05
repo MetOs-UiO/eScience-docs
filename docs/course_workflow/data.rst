@@ -1,7 +1,7 @@
 Sharing data
 ============
 
-Small size data (\<10 Mb) can be shared directly through the `eScience2026-projects repo <https://github.com/MetOs-UiO/eScience2026-projects>`_.
+Small size data (\<10 Mb) can be shared directly through the `escience2026-projects repo <https://github.com/MetOs-UiO/escience2026-projects>`_.
 
 Larger data will be put into read-only ``~/shared-clinfra-ns12127k-ns9252k/escience2026/data/`` by request (ask @mvdebolsiy to copy it there).
 
