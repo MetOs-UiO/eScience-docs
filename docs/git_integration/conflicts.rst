@@ -82,7 +82,7 @@ The former will apply current (local) changes to the file, the latter will apply
     Doing ``git checkout --theirs/ours <path-to-file>`` is particularly useful in this case.
 
     If you have been executing/changing notebooks (f.e. notebook of someone else from another group) and have commited changes into your branch,
-    and are pulling/merging ``upstream/main``, you most likely will have conficts in those notebooks.
+    and are pulling/merging ``upstream/master``, you most likely will have conficts in those notebooks.
     Just do ``git checkout --theirs <path-to-file>`` and it will stay the same way it is on the remote. For your own notebooks, if you are happy with your local changes, do ``git checkout --ours <path-to-file>``.
 
 After all changes are resolved. You should add all the files with  f.e. ``git add --all`` and do a commit with ``git commit`` to finish the merge/rebase.

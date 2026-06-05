@@ -7,9 +7,9 @@ Basic setup
 
 .. |fbutton| image:: img/fork_button.png
 
-Before you start working on your group projects. You should fork `eScience2026-projects repo <https://github.com/MetOs-UiO/eScience2026-projects>`_.
+Before you start working on your group projects. You should fork `escience2026-projects repo <https://github.com/MetOs-UiO/escience2026-projects>`_.
 To make a fork, go to the repo page. There you will see a ``fork`` button |fbutton|. Click on it to create a copy of this repository in your github user space.
-**Uncheck** ``Copy the main branch only`` if you do not want to miss on other branches currently on the original repo.
+**Uncheck** ``Copy the master branch only`` if you do not want to miss on other branches currently on the original repo.
 
 .. image:: img/fork-create.png
    :width: 700
@@ -59,27 +59,27 @@ There, you would need to clone your fork and create your first branch you would 
 
   .. code-block:: bash
 
-    git clone https://github.com/<your_username>/eScience2026-projects
+    git clone https://github.com/<your_username>/escience2026-projects
 
 - Go into your clone:
 
   .. code-block:: bash
 
-    cd eScience2026-projects
+    cd escience2026-projects
 
 - Add upstream repository (See :doc:`Setting up remotes <../git_integration/remotes>`):
      - to check if it's already added do ``git remote -v``
 
   .. code-block:: bash
 
-    git remote add upstream https://github.com/MetOs-UiO/eScience2026-projects
+    git remote add upstream https://github.com/MetOs-UiO/escience2026-projects
     git fetch --all
 
-- Make your first branch with a sensible name (what are you going to work on). Below you first checkout the current state of the upstream (the main repo, not your fork), and then add a branch (which will then be up to date with the main branch on the main repo) and switch to it, and finally you push your new local branch to the remote origin (which is your fork).
+- Make your first branch with a sensible name (what are you going to work on). Below you first checkout the current state of the upstream (the MetOs-UiO repo, not your fork), and then add a branch (which will then be up to date with the master branch on the MetOs-UiO repo) and switch to it, and finally you push your new local branch to the remote origin (which is your fork).
 
   .. code-block:: bash
 
-    git checkout upstream/main
+    git checkout upstream/master
     git switch -c <sensible-branch-name>
     git push origin <sensible-branch-name>
 
@@ -117,8 +117,8 @@ There, you would need to clone your fork and create your first branch you would 
 
 Within your fork, you should put all your code in your ``group#`` folder.
 
-When you need to share your work with the others within your group you need to make a :doc:`Pull Request <../git_integration/github-work>` to the `upstream repo <https://github.com/MetOs-UiO/eScience2025-projects>`_ ``main`` branch.
+When you need to share your work with the others within your group you need to make a :doc:`Pull Request <../git_integration/github-work>` to the `upstream repo <https://github.com/MetOs-UiO/ecience2025-projects>`_ ``master`` branch.
 
-After a Teaching assistant responsible for you group has merged your PR to ``upstream/main`` other members of your group can pull these changes into branches on their forks to work on.
+After a Teaching assistant responsible for you group has merged your PR to ``upstream/master`` other members of your group can pull these changes into branches on their forks to work on.
 
-In addition, you will most likely want to create new branches based on the updated ``upstream/main``. See :doc:`Setting up remotes <../git_integration/remotes>`.
+In addition, you will most likely want to create new branches based on the updated ``upstream/master``. See :doc:`Setting up remotes <../git_integration/remotes>`.
