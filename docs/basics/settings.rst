@@ -25,6 +25,29 @@ Here, for example, you can change the visibility of hidden files (the ones that 
    :alt: Hidden Files
 
 
+Shortcut-locale conflicts
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some locale (f.e. Norewegian nb-NO) conflict with shortcuts and key bindings for some plugins within the hub.
+You can turn off some of the options, or rebind shortcuts. For rebinding go to   **Settings** -\> **Settings Editor** Keyboard Shortcuts tab.
+
+If for some reason you have NB keyboard layout and []\ does not work you can fix these symbols that you get from Option+8,9,7 by doing the following:
+
+1. In the lab menu at the top: **Settings** -\> **Settings Editor**. This will open an settings tab in your workspace.
+
+2. Click on the Plugin Manager in the top-right of that tab near the JSON Settings Editor. This will open a new tab. Check the "I understand bla bla bla" box.
+
+3. Filter by inline.
+
+4. Turn off plugins for the inline-completer extension in the order they appear. 
+
+5. Close Plugin Manager tab. 
+
+6. Refresh the browser tab (if that is not enough, you need to restart your server (File->Hub Control->Panel->Stop My Server).
+
+7. Open Plugin Manager again. Filter by inline. Look if the boxes are unchecked. 
+
+8. Try []\ in one of your notebook cells.
 
 
 Styling warnings in notebooks
