@@ -110,7 +110,7 @@ html_context = {
     "conf_py_path": conf_py_path,
 }
 html_theme_options = {
-    "repository_url": "https://github.com/MetOs-UiO/eScience2026",
+    "repository_url": "https://github.com/MetOs-UiO/eScience-docs",
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
