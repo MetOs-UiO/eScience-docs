@@ -23,11 +23,11 @@ sys.path.insert(0, os.path.abspath("."))
 
 # -- Project information -----------------------------------------------------
 
-project = "eScience-2026"
+project = "eScience-docs"
 copyright = "2026, MetOs, UiO"
 author = "MetOs-UiO"
 github_user = "MetOs-UiO"
-github_repo_name = "eScience2026"  # auto-detected from dirname if blank
+github_repo_name = "eScience-docs"  # auto-detected from dirname if blank
 github_version = "master"
 conf_py_path = "/docs/"  # with leading and trailing slash
 
