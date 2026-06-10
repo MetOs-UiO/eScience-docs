@@ -116,7 +116,7 @@ To pull changes from the remote to your local repo use ``git pull``. To get upda
 
     .. code-block:: bash
 
-          # activate pangeo-notebook conda environment
+          # activate pangeo notebook conda environment
           source activate pangeo
           conda activate pangeo
           # pipe your token into github login command
