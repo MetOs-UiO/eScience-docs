@@ -89,8 +89,9 @@ There, you would need to clone your fork and create your first branch you would 
 
     .. code-block:: bash
 
-          # activate pangeo-notebook conda environment
-          source activate pangeo-notebook
+          # activate pangeo notebook conda environment
+          source activate
+          conda activate pangeo
           # pipe your token into github login command
           echo "<your-token-here>"  | gh auth login --with-token
           # check if you are logged in
