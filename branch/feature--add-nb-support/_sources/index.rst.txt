@@ -1,0 +1,17 @@
+eScience 2024 cource
+=========================
+
+.. Note ::
+   tips
+
+.. toctree ::
+   :maxdepth: 2
+
+   ./feide
+   ./basics
+   ./data
+   ./git_integration
+
+   notebooks/index.rst
+
+   license
